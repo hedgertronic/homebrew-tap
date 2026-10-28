@@ -16,7 +16,7 @@ cask "snug" do
 
   # Snug updates itself with Sparkle.
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Snug.app"
 
