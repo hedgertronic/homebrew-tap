@@ -1,8 +1,8 @@
 # Snug: brew install --cask hedgertronic/tap/snug
 # Snug's scripts/build.py --release writes the version and sha256 below for each new download.
 cask "snug" do
-  version "1.0.0"
-  sha256 "bba0158c6e0750731d0a1391d054f5c8be8971ab59278e3cc4b8dba5f0a9060c"
+  version "1.0.1"
+  sha256 "1d2c2a632eaec045991929b9657b85fc2d2018b2e2390ef16888e6a1f6fd7755"
 
   url "https://github.com/hedgertronic/snug/releases/download/v#{version}/Snug-#{version}.zip"
   name "Snug"
